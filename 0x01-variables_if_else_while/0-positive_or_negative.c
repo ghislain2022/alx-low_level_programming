@@ -2,20 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print if the number is positive,zero,or negative
+ * main - printing
  *
- * Description: using the main function
- * this program prints "programming is positive, zero, or negative
- * Return: 0
+ *Description: using the maion function
+ *this program prints " the number stored in the variable n is positive or negative
+ *Return:0
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() -  RAND_MAX / 2;
-	/* your code goes there */
-	if(n>0)
+	n = rand() - RAND_MAX / 2;
+	/*your code goes there*/
+	if (n>0)
 	{
 		printf("%i is positive\n", n);
 	}
@@ -25,8 +25,8 @@ int main(void)
 	}
 	else
 	{
-	       printf("%i is negative\n", n);
+		printf("%i is negative\n", n);
 	}
-         
-         return (0);
-}	 
+
+	return (0);
+}
